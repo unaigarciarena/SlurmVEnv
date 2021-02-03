@@ -13,3 +13,5 @@ En ese caso, puede ser que se libren varias tareas en ese nodo a la vez, y entre
 El output de este script es otro script, cuyo output es una línea del estilo --exclude nodox1,nodox2...nodox2. Los nodos nodoxn son los nodos de los que no se ha recibido confirmación de que el entorno se haya copiado. Pasándole esto como flag al sbatch evitas que ningún trabajo entre a ese nodo que no tiene el entorno virtual.
 
 Estoy seguro que hay muchas maneras mejores de hacerlo, pero yo he llegado a este punto, es bastante rápido de hacer, y en caso de que no necesites ninguna librería nueva, ni siquiera necesitas recopiar los entornos, porque ya los tienes en los nodos, sólo tienes que mirar en qué nodos está con el nodelist.sh, y mandar las tareas normal.
+
+Se aceptan mejoras y críticas. Unlikely que las críticas terminen siendo mejoras, así que las mejoras se aceptan más que las críticas.
