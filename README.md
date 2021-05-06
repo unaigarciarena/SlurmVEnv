@@ -1,4 +1,8 @@
 1- Creo el entorno en el nodo pruebas e instalo todas las librerías. Es mejor hacerlo en el pruebas que en el ordenador de cada uno porque el sistema en todos los nodos es el mismo, y si funciona en el pruebas, funciona en todos.
+1.1- virtualenv venv (crea el entorno)
+1.2- source venv/bin/activate (activa el entorno, aquí ya se pueden instalar paquetes)
+1.3- pip3 install loquesea
+1.4- deactivate (para cerrar el entorno)
 
 2- Creo un zip con el entorno.
 
