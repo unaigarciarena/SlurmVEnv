@@ -6,9 +6,9 @@
 
 2- Creo un zip con el entorno.
 
-3- Con el SendCC borro cualquier cosa que haya en mis carpetas temporales. Aquí suelo tener mi entorno virtual y posible basura de ejecuciones anteriores. Estas tareas también copian y descomprimen los entornos en cada nodo. Esto no es óptimo, ya que estás dejando ~1gb en cada nodo, pero creo que es la mejor opción.
+3- Con el SendCC borro cualquier cosa que haya en mis carpetas temporales. Aquí suelo tener mi entorno virtual y posible basura de ejecuciones anteriores. Estas tareas también copian y descomprimen los entornos en cada nodo. Esto no es óptimo, ya que estás dejando ~1gb en cada nodo, pero creo que es la mejor opción. Hay que cambiar el ugarciarena por tu nombre de usuario
 
-4- Mando los trabajos con el script normal (te mando el ejemplo de lanzar...sh), activando y desactivando el entorno desde donde lo habían puesto las tareas anteriores.
+4- Mando los trabajos con el script normal (ejemplo de lanzar...sh, también hay que poner el nombre de usuario de cada uno), activando y desactivando el entorno desde donde lo habían puesto las tareas anteriores.
 
 Puede pasar (de hecho, pasa habitualmente) que un nodo tenga todos sus hilos ocupados, y no pueda entrar la tarea de copiar el entorno virtual.  
 
